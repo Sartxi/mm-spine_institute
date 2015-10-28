@@ -1,0 +1,58 @@
+body{
+	font-family: 'Oxygen', sans-serif;
+}
+h1, h2, h3, h4, h5 {color: #5f0916;}
+.head {
+	background: #5f0916;
+	padding: 14px 0;
+	color: white;
+}
+.mmlogo { max-width: 237px; margin: 0 auto; margin-top: 27px;}
+.head h4, .head h5, .titles {color: white;}
+.titles hr { margin: 10px 0;}
+.numbers, .numbers h4 small { text-align: center; color: white;}
+.hands {font-family: "Georgia", Times, serif;}
+.slogn {font-size: 21px; margin-top: 11px; display: block; margin-bottom: 0;}
+.nav-back {padding-top:10px; color: white; border-top: 5px solid #8d0d21;}
+.carousel-control {width: 4%!important;}
+.badge {background: #9f0f25}
+.assessmentformarea { margin-bottom: 60px;}
+.foot {
+	background: #f7f7f7;
+	padding: 20px 0 60px;
+	margin-top: 40px;
+	border-top: 2px solid #ddd;
+}
+.foot hr { margin-bottom: 10px; margin-top: 10px;}
+.seprate hr {border-top: 1px solid #ddd;}
+.questions .lead {color: #5f0916;}
+.g-recaptcha {width: 304px; margin: 0 auto 14px;}
+
+/* button customize */
+.btn-primary {
+	color: #fff;
+	background-color: #5f0916;
+	border-color: #aa1027;
+}
+.btn-primary:hover, .btn-primary:focus, 
+.btn-primary.focus, .btn-primary:active, 
+.btn-primary.active, .open>.dropdown-toggle.btn-primary {
+	color: #fff;
+	background-color: #aa1027;
+	border-color: #aa1027;
+}	
+.btn-mega {font-size: 25px;}
+.stepscopy { min-height: 227px;}
+
+.addressdivide hr {margin-bottom: 10px; margin-top: 10px;}
+.addresses h3 { border-bottom: 1px solid #eee; padding-bottom: 10px;}
+
+.footerlogo {width: 233px;}
+ul.footnav li a { color: #5f0916; padding: 4px; display: block;}
+ul.footnav li a:hover { color: #aa1027; background: #eee; text-decoration: none;}
+
+/* mobile customize */
+@media (max-width: 995px) {
+	#navigation .container { padding: 0;}
+	#navigation.nav-back { padding-top: 0;}
+}
